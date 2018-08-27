@@ -1,0 +1,5 @@
+<canvas canvas-id="myCanvas-index" style="border: 0px solid;width:{{canvasWidth}}px;height:{{canvasHeight}}px;" />
+
+<view class='operator-area'>
+  <image class='chose' bindtap="chose" src='../../images/camera.png'></image>
+</view>

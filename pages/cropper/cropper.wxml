@@ -1,0 +1,12 @@
+<import src="../../we-cropper/we-cropper.wxml" />
+
+<view class="cropper-wrapper">
+  <template is="we-cropper" data="{{...cropperOpt}}" />
+
+</view>
+<view class="cropper-buttons">
+  <button class="upload" bindtap="uploadTap">
+  </button>
+  <button class="getCropperImage" bindtap="getCropperImage">
+  </button>
+</view>

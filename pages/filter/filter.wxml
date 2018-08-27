@@ -1,0 +1,16 @@
+<canvas canvas-id="myCanvas" style="border: 0px solid;width:{{canvasWidth}}px;height:{{canvasHeight}}px;" />
+
+<view class='operator-area-container'>
+  <view class='operator-area' hidden='{{!filterhiddentag}}'>
+    <image class='save' bindtap="save" src='../../images/save.png'></image>
+    <image class='chosefilter' bindtap="chosefilter" src='../../images/chosefilter.png'></image>
+    <view>
+      <button class='share' open-type='share'></button>
+    </view>
+  </view>
+  <view class='operator-area-filter' hidden='{{filterhiddentag}}'>
+    <image class='lomo' bindtap="lomo" src='../../images/lomo.png'></image>
+    <image class='greyfilter' bindtap="greyfilter" src='../../images/greyfilter.png'></image>
+    <image class='done' bindtap="done" src='../../images/done.png'></image>
+  </view>
+</view>
